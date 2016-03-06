@@ -144,6 +144,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         jPanelMainMenu.setPreferredSize(new java.awt.Dimension(600, 380));
 
         jButtonPlay.setText("Play");
+        jButtonPlay.setToolTipText("Press to play.");
         jButtonPlay.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonPlayActionPerformed(evt);
@@ -151,6 +152,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonHighScores.setText("Highscores");
+        jButtonHighScores.setToolTipText("Press to view the highscores.");
         jButtonHighScores.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonHighScoresActionPerformed(evt);
@@ -158,6 +160,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonCredits.setText("Credits");
+        jButtonCredits.setToolTipText("Press to view credits.");
         jButtonCredits.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonCreditsActionPerformed(evt);
@@ -166,6 +169,7 @@ public class HangmanGUI extends javax.swing.JFrame {
 
         jLabelSymbol.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabelSymbol.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hangman/Symbol.png"))); // NOI18N
+        jLabelSymbol.setToolTipText("An image.");
 
         javax.swing.GroupLayout jPanelMainMenuLayout = new javax.swing.GroupLayout(jPanelMainMenu);
         jPanelMainMenu.setLayout(jPanelMainMenuLayout);
@@ -201,6 +205,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         jPanelHangman.setPreferredSize(new java.awt.Dimension(600, 400));
 
         jButtonD.setText("D");
+        jButtonD.setToolTipText("Guess this letter.");
         jButtonD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonDActionPerformed(evt);
@@ -208,6 +213,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonE.setText("E");
+        jButtonE.setToolTipText("Guess this letter.");
         jButtonE.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonEActionPerformed(evt);
@@ -215,6 +221,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonF.setText("F");
+        jButtonF.setToolTipText("Guess this letter.");
         jButtonF.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonFActionPerformed(evt);
@@ -222,6 +229,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonG.setText("G");
+        jButtonG.setToolTipText("Guess this letter.");
         jButtonG.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonGActionPerformed(evt);
@@ -229,6 +237,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonH.setText("H");
+        jButtonH.setToolTipText("Guess this letter.");
         jButtonH.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonHActionPerformed(evt);
@@ -236,6 +245,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonI.setText("I");
+        jButtonI.setToolTipText("Guess this letter.");
         jButtonI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonIActionPerformed(evt);
@@ -243,6 +253,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonSkip.setText("Skip");
+        jButtonSkip.setToolTipText("Press to skip.");
         jButtonSkip.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonSkipActionPerformed(evt);
@@ -251,9 +262,11 @@ public class HangmanGUI extends javax.swing.JFrame {
 
         jLabelTitle.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabelTitle.setText("Hangman");
+        jLabelTitle.setToolTipText("The game you're playing!");
 
         Clock.setEditable(false);
         Clock.setText(new Date().toString().substring(0, 19));
+        Clock.setToolTipText("A clock.");
         Clock.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ClockActionPerformed(evt);
@@ -261,6 +274,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonV.setText("V");
+        jButtonV.setToolTipText("Guess this letter.");
         jButtonV.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonVActionPerformed(evt);
@@ -268,6 +282,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonW.setText("W");
+        jButtonW.setToolTipText("Guess this letter.");
         jButtonW.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonWActionPerformed(evt);
@@ -275,6 +290,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonX.setText("X");
+        jButtonX.setToolTipText("Guess this letter.");
         jButtonX.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonXActionPerformed(evt);
@@ -284,6 +300,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         jLabelDisplayWord.setText("WORD");
 
         jButtonY.setText("Y");
+        jButtonY.setToolTipText("Guess this letter.");
         jButtonY.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonYActionPerformed(evt);
@@ -291,6 +308,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonZ.setText("Z");
+        jButtonZ.setToolTipText("Guess this letter.");
         jButtonZ.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonZActionPerformed(evt);
@@ -298,6 +316,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonJ.setText("J");
+        jButtonJ.setToolTipText("Guess this letter.");
         jButtonJ.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonJActionPerformed(evt);
@@ -305,6 +324,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonK.setText("K");
+        jButtonK.setToolTipText("Guess this letter.");
         jButtonK.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonKActionPerformed(evt);
@@ -312,6 +332,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonL.setText("L");
+        jButtonL.setToolTipText("Guess this letter.");
         jButtonL.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonLActionPerformed(evt);
@@ -319,6 +340,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonM.setText("M");
+        jButtonM.setToolTipText("Guess this letter.");
         jButtonM.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonMActionPerformed(evt);
@@ -326,6 +348,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonA.setText("A");
+        jButtonA.setToolTipText("Guess this letter.");
         jButtonA.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonAActionPerformed(evt);
@@ -333,6 +356,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonN.setText("N");
+        jButtonN.setToolTipText("Guess this letter.");
         jButtonN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonNActionPerformed(evt);
@@ -340,6 +364,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonO.setText("O");
+        jButtonO.setToolTipText("Guess this letter.");
         jButtonO.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonOActionPerformed(evt);
@@ -347,6 +372,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonP.setText("P");
+        jButtonP.setToolTipText("Guess this letter.");
         jButtonP.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonPActionPerformed(evt);
@@ -354,6 +380,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonQ.setText("Q");
+        jButtonQ.setToolTipText("Guess this letter.");
         jButtonQ.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonQActionPerformed(evt);
@@ -361,6 +388,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonR.setText("R");
+        jButtonR.setToolTipText("Guess this letter.");
         jButtonR.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonRActionPerformed(evt);
@@ -368,6 +396,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonS.setText("S");
+        jButtonS.setToolTipText("Guess this letter.");
         jButtonS.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonSActionPerformed(evt);
@@ -375,6 +404,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonT.setText("T");
+        jButtonT.setToolTipText("Guess this letter.");
         jButtonT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonTActionPerformed(evt);
@@ -382,6 +412,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonU.setText("U");
+        jButtonU.setToolTipText("Guess this letter.");
         jButtonU.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonUActionPerformed(evt);
@@ -389,6 +420,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonB.setText("B");
+        jButtonB.setToolTipText("Guess this letter.");
         jButtonB.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonBActionPerformed(evt);
@@ -396,6 +428,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jButtonC.setText("C");
+        jButtonC.setToolTipText("Guess this letter.");
         jButtonC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonCActionPerformed(evt);
@@ -405,6 +438,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         jTextAreaPicture.setEditable(false);
         jTextAreaPicture.setColumns(20);
         jTextAreaPicture.setRows(5);
+        jTextAreaPicture.setToolTipText("How hung are you?");
 
         javax.swing.GroupLayout jPanelHangmanLayout = new javax.swing.GroupLayout(jPanelHangman);
         jPanelHangman.setLayout(jPanelHangmanLayout);
@@ -529,6 +563,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         jPanelHighScores.setPreferredSize(new java.awt.Dimension(600, 380));
 
         jButtonHighScoresBack.setText("Back");
+        jButtonHighScoresBack.setToolTipText("Press to go back.");
         jButtonHighScoresBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonHighScoresBackActionPerformed(evt);
@@ -537,21 +572,27 @@ public class HangmanGUI extends javax.swing.JFrame {
 
         jLabelHighScoresTitle.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabelHighScoresTitle.setText("Highscores");
+        jLabelHighScoresTitle.setToolTipText("The title.");
 
         jLabelHighScores1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabelHighScores1.setText("ABC.....00000");
+        jLabelHighScores1.setToolTipText("Top dog.");
 
         jLabelHighScores2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabelHighScores2.setText("ABC.....00000");
+        jLabelHighScores2.setToolTipText("Silver medalist.");
 
         jLabelHighScores3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabelHighScores3.setText("ABC.....00000");
+        jLabelHighScores3.setToolTipText("You tried.");
 
         jLabelHighScores4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabelHighScores4.setText("ABC.....00000");
+        jLabelHighScores4.setToolTipText("Barely worth mentioning.");
 
         jLabelHighScores5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabelHighScores5.setText("ABC.....00000");
+        jLabelHighScores5.setToolTipText("Who?!");
 
         javax.swing.GroupLayout jPanelHighScoresLayout = new javax.swing.GroupLayout(jPanelHighScores);
         jPanelHighScores.setLayout(jPanelHighScoresLayout);
@@ -599,11 +640,14 @@ public class HangmanGUI extends javax.swing.JFrame {
 
         jLabelBenjamin.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabelBenjamin.setText("Benjamin  Chin, 008881509");
+        jLabelBenjamin.setToolTipText("Best supporting actor.");
 
         jLabelCreditsTitle.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabelCreditsTitle.setText("Credits");
+        jLabelCreditsTitle.setToolTipText("The title.");
 
         jButtonCreditsBack.setText("Back");
+        jButtonCreditsBack.setToolTipText("Press to go back.");
         jButtonCreditsBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonCreditsBackActionPerformed(evt);
@@ -612,6 +656,7 @@ public class HangmanGUI extends javax.swing.JFrame {
 
         jLabelDavid.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabelDavid.setText("David Clarke, 007239739");
+        jLabelDavid.setToolTipText("Top billing.");
 
         javax.swing.GroupLayout jPanelCreditsLayout = new javax.swing.GroupLayout(jPanelCredits);
         jPanelCredits.setLayout(jPanelCreditsLayout);
@@ -650,11 +695,14 @@ public class HangmanGUI extends javax.swing.JFrame {
 
         jLabelEndTitle.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabelEndTitle.setText("End");
+        jLabelEndTitle.setToolTipText("The title.");
 
         jLabelEndScore.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabelEndScore.setText("Score: 100");
+        jLabelEndScore.setToolTipText("Your score.");
 
         jButtonEnd.setText("End");
+        jButtonEnd.setToolTipText("Press to play the next game.");
         jButtonEnd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonEndActionPerformed(evt);
@@ -662,7 +710,8 @@ public class HangmanGUI extends javax.swing.JFrame {
         });
 
         jLabelEndStatus.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabelEndStatus.setText("You win");
+        jLabelEndStatus.setText("You win!");
+        jLabelEndStatus.setToolTipText("Your status.");
 
         javax.swing.GroupLayout jPanelEndLayout = new javax.swing.GroupLayout(jPanelEnd);
         jPanelEnd.setLayout(jPanelEndLayout);
@@ -704,9 +753,11 @@ public class HangmanGUI extends javax.swing.JFrame {
 
         jLabel15.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel15.setText("CS 245 Quarter Project");
+        jLabel15.setToolTipText("This project.");
 
         jLabel16.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel16.setText("By: Team QTSPIM");
+        jLabel16.setToolTipText("Our team.");
 
         javax.swing.GroupLayout jPanelStartScreenLayout = new javax.swing.GroupLayout(jPanelStartScreen);
         jPanelStartScreen.setLayout(jPanelStartScreenLayout);
@@ -734,42 +785,51 @@ public class HangmanGUI extends javax.swing.JFrame {
 
         jPanelCards.add(jPanelStartScreen, "card1");
 
+        jPanelColorGame.setToolTipText("Select this color.");
+
         randomColorText.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
         randomColorText.setForeground(randomColor());
         randomColorText.setText(randomColorName());
+        randomColorText.setToolTipText("Select the color that matches the color of this text.");
 
         Clock1.setEditable(false);
         Clock1.setText(new Date().toString().substring(0, 19));
+        Clock1.setToolTipText("A clock.");
         Clock1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Clock1ActionPerformed(evt);
             }
         });
 
+        jButtonColor1.setToolTipText("Select this color.");
         jButtonColor1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonColor1ActionPerformed(evt);
             }
         });
 
+        jButtonColor2.setToolTipText("Select this color.");
         jButtonColor2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonColor2ActionPerformed(evt);
             }
         });
 
+        jButtonColor3.setToolTipText("Select this color.");
         jButtonColor3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonColor3ActionPerformed(evt);
             }
         });
 
+        jButtonColor4.setToolTipText("Select this color.");
         jButtonColor4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonColor4ActionPerformed(evt);
             }
         });
 
+        jButtonColor5.setToolTipText("Select this color.");
         jButtonColor5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonColor5ActionPerformed(evt);
@@ -840,6 +900,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         jPanelCards.add(jPanelColorGame, "card8");
 
         jButtonColorGameEnd.setText("End");
+        jButtonColorGameEnd.setToolTipText("Press to end.");
         jButtonColorGameEnd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonColorGameEndActionPerformed(evt);
@@ -848,10 +909,13 @@ public class HangmanGUI extends javax.swing.JFrame {
 
         jLabelColorGameEndText.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
         jLabelColorGameEndText.setText("End");
+        jLabelColorGameEndText.setToolTipText("The title.");
 
         jLabelTotalScore.setText("Score: ");
+        jLabelTotalScore.setToolTipText("Your score.");
 
         jTextFieldHighscoreName.setText("Enter your highscore name here!");
+        jTextFieldHighscoreName.setToolTipText("Only the first three characters of the text entered will be displayed.");
         jTextFieldHighscoreName.setEnabled(false);
         jTextFieldHighscoreName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1220,6 +1284,7 @@ public class HangmanGUI extends javax.swing.JFrame {
         guesses = 0;
         wordNum = randomNum.nextInt(wordList.length);
         targetWord = wordList[wordNum].toCharArray();
+        jLabelDisplayWord.setToolTipText(wordList[wordNum]);
         displayWord = new char[targetWord.length];
         Arrays.fill(displayWord, '_');
         jLabelDisplayWord.setText(Arrays.toString(displayWord).replace(',', ' ').replace('[', ' ').replace(']', ' '));

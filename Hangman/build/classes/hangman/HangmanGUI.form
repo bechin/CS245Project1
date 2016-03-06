@@ -106,6 +106,7 @@
             <Component class="javax.swing.JButton" name="jButtonPlay">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Play"/>
+                <Property name="toolTipText" type="java.lang.String" value="Press to play."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonPlayActionPerformed"/>
@@ -114,6 +115,7 @@
             <Component class="javax.swing.JButton" name="jButtonHighScores">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Highscores"/>
+                <Property name="toolTipText" type="java.lang.String" value="Press to view the highscores."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonHighScoresActionPerformed"/>
@@ -122,6 +124,7 @@
             <Component class="javax.swing.JButton" name="jButtonCredits">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Credits"/>
+                <Property name="toolTipText" type="java.lang.String" value="Press to view credits."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonCreditsActionPerformed"/>
@@ -135,6 +138,7 @@
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/hangman/Symbol.png"/>
                 </Property>
+                <Property name="toolTipText" type="java.lang.String" value="An image."/>
               </Properties>
             </Component>
           </SubComponents>
@@ -287,6 +291,7 @@
             <Component class="javax.swing.JButton" name="jButtonD">
               <Properties>
                 <Property name="text" type="java.lang.String" value="D"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonDActionPerformed"/>
@@ -295,6 +300,7 @@
             <Component class="javax.swing.JButton" name="jButtonE">
               <Properties>
                 <Property name="text" type="java.lang.String" value="E"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonEActionPerformed"/>
@@ -303,6 +309,7 @@
             <Component class="javax.swing.JButton" name="jButtonF">
               <Properties>
                 <Property name="text" type="java.lang.String" value="F"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonFActionPerformed"/>
@@ -311,6 +318,7 @@
             <Component class="javax.swing.JButton" name="jButtonG">
               <Properties>
                 <Property name="text" type="java.lang.String" value="G"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonGActionPerformed"/>
@@ -319,6 +327,7 @@
             <Component class="javax.swing.JButton" name="jButtonH">
               <Properties>
                 <Property name="text" type="java.lang.String" value="H"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonHActionPerformed"/>
@@ -327,6 +336,7 @@
             <Component class="javax.swing.JButton" name="jButtonI">
               <Properties>
                 <Property name="text" type="java.lang.String" value="I"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonIActionPerformed"/>
@@ -335,6 +345,7 @@
             <Component class="javax.swing.JButton" name="jButtonSkip">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Skip"/>
+                <Property name="toolTipText" type="java.lang.String" value="Press to skip."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonSkipActionPerformed"/>
@@ -346,6 +357,7 @@
                   <Font name="Tahoma" size="24" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Hangman"/>
+                <Property name="toolTipText" type="java.lang.String" value="The game you&apos;re playing!"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="Clock">
@@ -354,6 +366,7 @@
                 <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
                   <Connection code="new Date().toString().substring(0, 19)" type="code"/>
                 </Property>
+                <Property name="toolTipText" type="java.lang.String" value="A clock."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ClockActionPerformed"/>
@@ -362,6 +375,7 @@
             <Component class="javax.swing.JButton" name="jButtonV">
               <Properties>
                 <Property name="text" type="java.lang.String" value="V"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonVActionPerformed"/>
@@ -370,6 +384,7 @@
             <Component class="javax.swing.JButton" name="jButtonW">
               <Properties>
                 <Property name="text" type="java.lang.String" value="W"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonWActionPerformed"/>
@@ -378,6 +393,7 @@
             <Component class="javax.swing.JButton" name="jButtonX">
               <Properties>
                 <Property name="text" type="java.lang.String" value="X"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonXActionPerformed"/>
@@ -391,6 +407,7 @@
             <Component class="javax.swing.JButton" name="jButtonY">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Y"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonYActionPerformed"/>
@@ -399,6 +416,7 @@
             <Component class="javax.swing.JButton" name="jButtonZ">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Z"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonZActionPerformed"/>
@@ -407,6 +425,7 @@
             <Component class="javax.swing.JButton" name="jButtonJ">
               <Properties>
                 <Property name="text" type="java.lang.String" value="J"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonJActionPerformed"/>
@@ -415,6 +434,7 @@
             <Component class="javax.swing.JButton" name="jButtonK">
               <Properties>
                 <Property name="text" type="java.lang.String" value="K"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonKActionPerformed"/>
@@ -423,6 +443,7 @@
             <Component class="javax.swing.JButton" name="jButtonL">
               <Properties>
                 <Property name="text" type="java.lang.String" value="L"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonLActionPerformed"/>
@@ -431,6 +452,7 @@
             <Component class="javax.swing.JButton" name="jButtonM">
               <Properties>
                 <Property name="text" type="java.lang.String" value="M"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonMActionPerformed"/>
@@ -439,6 +461,7 @@
             <Component class="javax.swing.JButton" name="jButtonA">
               <Properties>
                 <Property name="text" type="java.lang.String" value="A"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonAActionPerformed"/>
@@ -447,6 +470,7 @@
             <Component class="javax.swing.JButton" name="jButtonN">
               <Properties>
                 <Property name="text" type="java.lang.String" value="N"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonNActionPerformed"/>
@@ -455,6 +479,7 @@
             <Component class="javax.swing.JButton" name="jButtonO">
               <Properties>
                 <Property name="text" type="java.lang.String" value="O"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonOActionPerformed"/>
@@ -463,6 +488,7 @@
             <Component class="javax.swing.JButton" name="jButtonP">
               <Properties>
                 <Property name="text" type="java.lang.String" value="P"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonPActionPerformed"/>
@@ -471,6 +497,7 @@
             <Component class="javax.swing.JButton" name="jButtonQ">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Q"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonQActionPerformed"/>
@@ -479,6 +506,7 @@
             <Component class="javax.swing.JButton" name="jButtonR">
               <Properties>
                 <Property name="text" type="java.lang.String" value="R"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonRActionPerformed"/>
@@ -487,6 +515,7 @@
             <Component class="javax.swing.JButton" name="jButtonS">
               <Properties>
                 <Property name="text" type="java.lang.String" value="S"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonSActionPerformed"/>
@@ -495,6 +524,7 @@
             <Component class="javax.swing.JButton" name="jButtonT">
               <Properties>
                 <Property name="text" type="java.lang.String" value="T"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonTActionPerformed"/>
@@ -503,6 +533,7 @@
             <Component class="javax.swing.JButton" name="jButtonU">
               <Properties>
                 <Property name="text" type="java.lang.String" value="U"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonUActionPerformed"/>
@@ -511,6 +542,7 @@
             <Component class="javax.swing.JButton" name="jButtonB">
               <Properties>
                 <Property name="text" type="java.lang.String" value="B"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonBActionPerformed"/>
@@ -519,6 +551,7 @@
             <Component class="javax.swing.JButton" name="jButtonC">
               <Properties>
                 <Property name="text" type="java.lang.String" value="C"/>
+                <Property name="toolTipText" type="java.lang.String" value="Guess this letter."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonCActionPerformed"/>
@@ -529,6 +562,7 @@
                 <Property name="editable" type="boolean" value="false"/>
                 <Property name="columns" type="int" value="20"/>
                 <Property name="rows" type="int" value="5"/>
+                <Property name="toolTipText" type="java.lang.String" value="How hung are you?"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -596,6 +630,7 @@
             <Component class="javax.swing.JButton" name="jButtonHighScoresBack">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Back"/>
+                <Property name="toolTipText" type="java.lang.String" value="Press to go back."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonHighScoresBackActionPerformed"/>
@@ -607,6 +642,7 @@
                   <Font name="Tahoma" size="24" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Highscores"/>
+                <Property name="toolTipText" type="java.lang.String" value="The title."/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabelHighScores1">
@@ -615,6 +651,7 @@
                   <Font name="Tahoma" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="ABC.....00000"/>
+                <Property name="toolTipText" type="java.lang.String" value="Top dog."/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabelHighScores2">
@@ -623,6 +660,7 @@
                   <Font name="Tahoma" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="ABC.....00000"/>
+                <Property name="toolTipText" type="java.lang.String" value="Silver medalist."/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabelHighScores3">
@@ -631,6 +669,7 @@
                   <Font name="Tahoma" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="ABC.....00000"/>
+                <Property name="toolTipText" type="java.lang.String" value="You tried."/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabelHighScores4">
@@ -639,6 +678,7 @@
                   <Font name="Tahoma" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="ABC.....00000"/>
+                <Property name="toolTipText" type="java.lang.String" value="Barely worth mentioning."/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabelHighScores5">
@@ -647,6 +687,7 @@
                   <Font name="Tahoma" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="ABC.....00000"/>
+                <Property name="toolTipText" type="java.lang.String" value="Who?!"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -707,6 +748,7 @@
                   <Font name="Tahoma" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Benjamin  Chin, 008881509"/>
+                <Property name="toolTipText" type="java.lang.String" value="Best supporting actor."/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabelCreditsTitle">
@@ -715,11 +757,13 @@
                   <Font name="Tahoma" size="24" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Credits"/>
+                <Property name="toolTipText" type="java.lang.String" value="The title."/>
               </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="jButtonCreditsBack">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Back"/>
+                <Property name="toolTipText" type="java.lang.String" value="Press to go back."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonCreditsBackActionPerformed"/>
@@ -731,6 +775,7 @@
                   <Font name="Tahoma" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="David Clarke, 007239739"/>
+                <Property name="toolTipText" type="java.lang.String" value="Top billing."/>
               </Properties>
             </Component>
           </SubComponents>
@@ -797,6 +842,7 @@
                   <Font name="Tahoma" size="24" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="End"/>
+                <Property name="toolTipText" type="java.lang.String" value="The title."/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabelEndScore">
@@ -805,11 +851,13 @@
                   <Font name="Tahoma" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Score: 100"/>
+                <Property name="toolTipText" type="java.lang.String" value="Your score."/>
               </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="jButtonEnd">
               <Properties>
                 <Property name="text" type="java.lang.String" value="End"/>
+                <Property name="toolTipText" type="java.lang.String" value="Press to play the next game."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonEndActionPerformed"/>
@@ -820,7 +868,8 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="14" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="You win"/>
+                <Property name="text" type="java.lang.String" value="You win!"/>
+                <Property name="toolTipText" type="java.lang.String" value="Your status."/>
               </Properties>
             </Component>
           </SubComponents>
@@ -874,6 +923,7 @@
                   <Font name="Tahoma" size="24" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="CS 245 Quarter Project"/>
+                <Property name="toolTipText" type="java.lang.String" value="This project."/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel16">
@@ -882,11 +932,15 @@
                   <Font name="Tahoma" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="By: Team QTSPIM"/>
+                <Property name="toolTipText" type="java.lang.String" value="Our team."/>
               </Properties>
             </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="jPanelColorGame">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value="Select this color."/>
+          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
               <CardConstraints cardName="card8"/>
@@ -974,6 +1028,7 @@
                 <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
                   <Connection code="randomColorName()" type="code"/>
                 </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Select the color that matches the color of this text."/>
               </Properties>
               <AccessibilityProperties>
                 <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="randomColorText"/>
@@ -985,12 +1040,16 @@
                 <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
                   <Connection code="new Date().toString().substring(0, 19)" type="code"/>
                 </Property>
+                <Property name="toolTipText" type="java.lang.String" value="A clock."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Clock1ActionPerformed"/>
               </Events>
             </Component>
             <Component class="javax.swing.JButton" name="jButtonColor1">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="Select this color."/>
+              </Properties>
               <AccessibilityProperties>
                 <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="jButtonColor1"/>
               </AccessibilityProperties>
@@ -999,6 +1058,9 @@
               </Events>
             </Component>
             <Component class="javax.swing.JButton" name="jButtonColor2">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="Select this color."/>
+              </Properties>
               <AccessibilityProperties>
                 <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="jButtonColor2"/>
               </AccessibilityProperties>
@@ -1007,6 +1069,9 @@
               </Events>
             </Component>
             <Component class="javax.swing.JButton" name="jButtonColor3">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="Select this color."/>
+              </Properties>
               <AccessibilityProperties>
                 <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="jButtonColor3"/>
               </AccessibilityProperties>
@@ -1015,6 +1080,9 @@
               </Events>
             </Component>
             <Component class="javax.swing.JButton" name="jButtonColor4">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="Select this color."/>
+              </Properties>
               <AccessibilityProperties>
                 <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="jButtonColor4"/>
               </AccessibilityProperties>
@@ -1023,6 +1091,9 @@
               </Events>
             </Component>
             <Component class="javax.swing.JButton" name="jButtonColor5">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value="Select this color."/>
+              </Properties>
               <AccessibilityProperties>
                 <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="jButtonColor5"/>
               </AccessibilityProperties>
@@ -1085,6 +1156,7 @@
             <Component class="javax.swing.JButton" name="jButtonColorGameEnd">
               <Properties>
                 <Property name="text" type="java.lang.String" value="End"/>
+                <Property name="toolTipText" type="java.lang.String" value="Press to end."/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonColorGameEndActionPerformed"/>
@@ -1096,6 +1168,7 @@
                   <Font name="Dialog" size="24" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="End"/>
+                <Property name="toolTipText" type="java.lang.String" value="The title."/>
               </Properties>
               <AccessibilityProperties>
                 <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="jLabelColorGameEndText"/>
@@ -1104,6 +1177,7 @@
             <Component class="javax.swing.JLabel" name="jLabelTotalScore">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Score: "/>
+                <Property name="toolTipText" type="java.lang.String" value="Your score."/>
               </Properties>
               <AccessibilityProperties>
                 <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="jLabelTotalScore"/>
@@ -1112,6 +1186,7 @@
             <Component class="javax.swing.JTextField" name="jTextFieldHighscoreName">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Enter your highscore name here!"/>
+                <Property name="toolTipText" type="java.lang.String" value="Only the first three characters of the text entered will be displayed."/>
                 <Property name="enabled" type="boolean" value="false"/>
               </Properties>
               <Events>
